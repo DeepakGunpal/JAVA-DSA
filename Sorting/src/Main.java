@@ -3,10 +3,10 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 //        int[] arr = {5,4,3,2,1};
-        int[] arr = {2,-5,-59,-16,59,26,0,1};
-//        bubble(arr);
+        int[] arr = {2,-5,26,-59,26,-16,59,26,0,1};
+        bubble(arr);
 //        selection(arr);
-        insertion(arr);
+//        insertion(arr);
         System.out.println(Arrays.toString(arr));
     }
 
