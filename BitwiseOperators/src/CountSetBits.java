@@ -4,6 +4,7 @@ public class CountSetBits {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int num = in.nextInt();
+        System.out.println(Integer.toBinaryString(num));
         System.out.println(countSetBits(num));
         System.out.println(countSetBit(num));
 
