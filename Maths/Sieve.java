@@ -18,8 +18,11 @@ public class Sieve {
 
         for (int i = 2; i <= n; i++) {
             if (!primes[i]){
-                System.out.println(i+" ");
+                System.out.print(i+" ");
             }
         }
     }
+
+//    SC O(n)
+//    TC
 }
